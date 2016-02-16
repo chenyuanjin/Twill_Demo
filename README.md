@@ -2,10 +2,8 @@
 ----
 
 ##简介
-    hadoop 2.x包含两部分YARN和HDFS,而MR等计算框架则成为建立YARN上的应用,
-    YARN则成为一款云操作系统,任何应用只要实现YARN的指定的接口,就可以在YARN上分布式运行,关于一款应用如何接入YARN,可以参照这篇[博客](http://my.oschina.net/u/1434348/blog/193374),
-    我们可以看出,在YARN上开发应用还是很复杂的,因此Apache Twill就诞生了,它将接入YARN的接口进行了进一步的包装,我们只用几行简单的代码就可以将自己的应用接入YRAN了,使我们可以更好的关注与自己的业务,而不是如何接入YRAN;
-    Apache Twill的[官网](http://twill.incubator.apache.org/),关于twill的详细介绍可以看Apache will Presentation in ApacheCon 2014.本项目展示如何在IDEA建立一个twill的maven开发项目以及一些注意事项;
+- hadoop 2.x包含两部分YARN和HDFS,而MR等计算框架则成为建立YARN上的应用,YARN则成为一款云操作系统,任何应用只要实现YARN的指定的接口,就可以在YARN上分布式运行,关于一款应用如何接入YARN,可以参照这篇[博客](http://my.oschina.net/u/1434348/blog/193374),我们可以看出,在YARN上开发应用还是很复杂的,因此Apache Twill就诞生了,它将接入YARN的接口进行了进一步的包装,我们只用几行简单的代码就可以将自己的应用接入YRAN了,使我们可以更好的关注与自己的业务,而不是如何接入YRAN;Apache Twill的[官网](http://twill.incubator.apache.org/),关于twill的详细介绍可以看Apache will Presentation in ApacheCon 2014.本项目展示如何在IDEA建立一个twill的maven开发项目以及一些注意事项;
+
 ----
 
 ##搭建开发环境
